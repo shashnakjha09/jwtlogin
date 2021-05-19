@@ -1,0 +1,78 @@
+.container-fluid {
+  height: 200px;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.item1 {
+  text-align: center;
+  height: 80px;
+  width: 320px;
+  border: 1px solid rgb(224, 219, 219);
+  box-shadow: 1px 1px 10px 2px rgba(197, 194, 194, 0.8);
+  padding: 10px;
+  margin: 10px;
+}
+
+.item2 {
+  text-align: center;
+  height: 80px;
+  width: 320px;
+  border: 1px solid rgb(224, 219, 219);
+  box-shadow: 1px 1px 10px 2px rgba(197, 194, 194, 0.8);
+  padding: 10px;
+  margin: 10px;
+}
+
+.item3 {
+  text-align: center;
+  height: 80px;
+  width: 320px;
+  border: 1px solid rgb(224, 219, 219);
+  box-shadow: 1px 1px 10px 2px rgba(187, 185, 185, 0.8);
+  padding: 10px;
+  margin: 10px;
+}
+
+.get-in-touch {
+  margin: auto;
+  width: 60%;
+  height: 350px;
+  border: 1px solid #e2e4e0;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 2px rgba(228, 226, 226, 0.8);
+}
+
+.get-in-touch-content {
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.get-in-touch-text {
+  position: relative;
+  left: 20px;
+  top: 10px;
+  font-family: sans-serif;
+  color: rgb(92, 91, 91);
+}
+.get-in-touch-content > div {
+  padding: 10px;
+}
+
+.get-in-touch-content > div > input {
+  color: gray;
+  border: 1px solid rgb(199, 198, 198);
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 2px rgba(216, 213, 213, 0.8);
+}
+
+@media only screen and (max-width: 600px) {
+  .get-in-touch {
+    width: auto;
+    height: auto;
+  }
+}

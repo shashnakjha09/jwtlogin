@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+.main-button > button {
+  border-radius: 30px !important;
+}
+
+#main-heading {
+  font-weight: 900;
+}
+
+#main-para {
+  /* font-family: monospace; */
+}

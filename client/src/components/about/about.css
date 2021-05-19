@@ -1,0 +1,60 @@
+.first {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+  box-shadow: 1px 1px 10px 2px rgba(228, 226, 226, 0.8);
+  height: auto;
+  width: 70%;
+}
+
+.image > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+#button {
+  position: relative;
+  top: 15px;
+  border-radius: 5px;
+}
+#name {
+  font-size: 15px;
+}
+
+#work {
+  color: blue;
+  font-size: 15px;
+}
+
+#rank {
+  font-size: 15px;
+}
+
+.extra-about {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  box-shadow: 1px 1px 10px 2px rgba(228, 226, 226, 0.8);
+  padding: 15px;
+  height: auto;
+  width: 70%;
+}
+
+.personal-info > h6 {
+  font-family: monospace;
+  font-weight: 700;
+  color: rgb(78, 77, 77);
+}
+
+.social-extra > h6 {
+  font-family: sans-serif;
+  color: rgb(87, 86, 86);
+}
+
+.personal-info-content > h6 {
+  color: rgb(84, 84, 252);
+  font-weight: 500;
+  font-size: 15px;
+}

@@ -1,0 +1,32 @@
+.home {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#home-heading {
+  color: blue;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#home-para {
+  position: relative;
+  top: 30px;
+  color: rgb(85, 84, 84);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  #home-para {
+    text-align: center;
+  }
+}
